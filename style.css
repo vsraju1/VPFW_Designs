@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  /* height: 100vh; */
+  /* background-color: aqua; */
+}
+
+.main {
+  /* height: 100vh; */
+  /* width: 100vw; */
+  margin: auto;
+  /* background-color: rgba(227, 206, 69, 0.5); */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+  width: 100%;
+  font-size: 60px;
+  color: white;
+  position: fixed;
+  
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+  height: fit-content;
+  background-color: rgb(220, 196, 40);
+}
+
+.navbar{
+  padding-top: 14vh;
+}
+
+ul {
+  padding: 10px;
+  padding-bottom: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 22px;
+  background-color: white;
+}
+
+ul li {
+  /* background-color: rgba(220, 196, 40, 0.9); */
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: 0.2s ease-in;
+}
+
+ul li:hover {
+  background-color: rgba(220, 196, 40, 0.9);
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+}
+
+/* h1 and navbar closes  */
+
+/* main-content starts  */
+.main-content {
+  /* background-color: aqua; */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-content h2 {
+  padding: 20px 0;
+}
+
+/* .img-holder {
+  margin: 0 auto;
+  max-height: 40vh;
+  background-color: grey;
+} */
+
+.main-content img {
+  /* width: 80%; */
+  max-height: 40vh;
+}
+
+.designs {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-link {
+  margin-top: 15px;
+}
+
+/* responsive  */
+
+/* responsive for laptop 1024 px */
+@media (max-width: 1025px) {
+  h1 {
+    font-size: 55px;
+  }
+  .main-content{
+    gap: 40px;
+  }
+}
+
+/* responsive for tablet */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+  .navbar {
+    width: 100vw;
+      padding-top: 12vh;
+  }
+  .main-content {
+    width: 98%;
+    gap: 10px;
+  }
+  .main-content img {
+    height: 35vh;
+  }
+}
+
+/* responsive for L phone  */
+
+@media (max-width: 426px) {
+  h1 {
+    font-size: 40px;
+  }
+  .navbar{
+    padding-top: 12vh;
+  }
+  ul {
+    font-size: 16px;
+    gap: 10px;
+  }
+  .main-content {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .main-content img {
+    height: 38vh;
+  }
+}
+
+/* responsive for S phone  */
+
+@media (max-width: 376px) {
+  h1 {
+    font-size: 35px;
+  }
+  .navbar{
+    padding-top: 11vh;
+  }
+  ul {
+    font-size: 13px;
+    gap: 10px;
+  }
+  .main-content img {
+    height: 34vh;
+  }
+}
+
+/* responsive for XS phone  */
+
+@media (max-width: 321px) {
+  h1 {
+    font-size: 30px;
+  }
+  .navbar{
+    padding-top: 9vh;
+  }
+  ul {
+    font-size: 12px;
+    gap: 2px;
+  }
+  .main-content img {
+    height: 30vh;
+  }
+}
+
