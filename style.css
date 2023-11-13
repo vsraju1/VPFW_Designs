@@ -131,7 +131,7 @@ ul a {
     gap: 10px;
   }
   .main-content img {
-    height: 35vh;
+    height: 30vh;
   }
 }
 
@@ -154,7 +154,7 @@ ul a {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
   .main-content img {
-    height: 38vh;
+    width: 95%;
   }
 }
 
