@@ -102,12 +102,33 @@ ul a {
   margin: 10px 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .img-link {
   margin-top: 15px;
 }
 
+.design-pages{
+  margin-top: 5px;
+  width: fit-content;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  transition: .2s ease;
+}
+
+.design-pages{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.design-pages:hover{
+  background-color: rgb(57, 109, 139);
+  color: white;
+}
 /* responsive  */
 
 /* responsive for laptop 1024 px */
