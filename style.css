@@ -114,7 +114,8 @@ ul a {
   width: fit-content;
   padding: 5px 10px;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
+  background-color: white;
   border-radius: 3px;
   transition: .2s ease;
 }
@@ -126,7 +127,7 @@ ul a {
   color: black;
 }
 .design-pages:hover{
-  background-color: rgb(57, 109, 139);
+  background-color: black;
   color: white;
 }
 /* responsive  */
